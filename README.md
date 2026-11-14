@@ -75,11 +75,20 @@ flowchart LR
 ## 仓库结构
 
 ```
-docs/      工作指南与说明文档
-assets/    图片
+AGENTS.md                 执行说明：依据优先级、十条硬性规则、目录约定、每次运行的开始与结束动作
+rules.json                全部口径的机器可读版：字段字典、相关性分级、去向、判例、词表、路由、自检、抽检、验收门
+schema.sql                SQLite 建表语句
+VERSION                   执行包版本号
+prompts/P1.md … P8.md     各环节提示词（建档、检索、下载、抽取、研判、去重、复核、0 份审查）
+roster/units.csv          549 个检索单元
+roster/agency_templates.csv  省级与第三层要查的机关
+roster/known_items.csv    召回测试用的已知项（检索运行不得读取；文号日期待核）
+legacy/oldlib_diagnosis.csv  旧库 673 个文件的诊断与建议去向
+docs/                     工作指南 PDF
+assets/                   图片
 ```
 
-执行包（`AGENTS.md`、`rules.json`、提示词、名录）和数据目录会在试点开始前加入。
+克隆本仓库后，仓库根目录就是 Codex 的工作目录。口径只在一处修改：先改指南的口径数据，再同时重新生成指南、表单和执行包，不直接改 `rules.json` 或提示词。检索日志、数据库和文本库等数据目录（`01_roster/` 至 `09_aux/`）在试点开始后加入。
 
 ---
 
