@@ -11,9 +11,9 @@
 
 这个仓库存放政策库的建设规程、执行包和已经采集的数据。检索和整理由智能体执行，人工负责抽检和裁决，每份文件都能追溯到官方原件。
 
-📘 **[工作指南 PDF（v1.0，53 页）](docs/AI-Policy-DB-Guide_v1.0.pdf)**
-📊 **[中央层运行报告 PDF（2026-11-15，34 页，含 652 条政策清单）](docs/reports/central_report_20261115.pdf)**
-🗂 **[中央层数据](data/)**
+- 📘 **[工作指南 PDF（v1.0，53 页）](docs/AI-Policy-DB-Guide_v1.0.pdf)**
+- 📊 **[中央层运行报告 PDF（2026-11-15，34 页，含 652 条政策清单）](docs/reports/central_report_20261115.pdf)**
+- 🗂 **[中央层数据](data/)**
 
 <br clear="right">
 
