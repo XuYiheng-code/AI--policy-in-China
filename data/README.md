@@ -1,6 +1,6 @@
 # 数据说明
 
-目前有中央层（L1，快照 2026-11-15 02:31）和浙江省（L2，2026-11-16 第二轮）两批数据。**全部为智能体与脚本初判，尚未人工核验**，采集也没有完成，详见 [中央层运行报告](../docs/reports/central_report_20261115.pdf) 和 [浙江省现状说明](../docs/reports/zhejiang_report_20261116.pdf)。
+目前有中央层（L1，快照 2026-11-15 02:31）、浙江省和江苏省（L2，均为 2026-11-16 第二轮）三批数据。**全部为智能体与脚本初判，尚未人工核验**，采集也没有完成，详见 [中央层运行报告](../docs/reports/central_report_20261115.pdf) 、[浙江省现状说明](../docs/reports/zhejiang_report_20261116.pdf) 和 [江苏省现状说明](../docs/reports/jiangsu_report_20261116.pdf)。
 
 ## data/central/
 
@@ -36,6 +36,25 @@
 | `doc_id_changes.csv` | 749 | 新旧编号对照（第二轮 99 份按网站发布日期改号） |
 | `texts/{doc_id}.txt` | 559 | 清洗后的正文 |
 
+## data/provincial/jiangsu/（第二轮，2026-11-16）
+
+| 文件 | 行数 | 内容 |
+|---|---:|---|
+| `policies.csv` | 199 | **独立政策清单**（A 63、B 136）；《数字经济促进条例》2022 原版与 2025 修正版分列 |
+| `source_records.csv` | 207 | 全部登记记录，另加 `policy_id`、`archive_dir` |
+| `sources.csv` | 248 | 记录与来源 URL 的对应 |
+| `search_log.csv` | 1,984 | 检索日志（含 757 条外部查询：影子清单、法宝未定位题名、线索包署名反查） |
+| `agency_coverage.csv` | 45 | 机关、R2 日志数、R2 结果 |
+| `route_status.csv` | 7 | R1—R7 状态 |
+| `zhejiang_shadow_check.csv` | 459 | 浙江影子清单逐条结果（找到同类 24、被拦截 435） |
+| `manual_sites.csv`、`portal_terms_manual.csv`、`gazette_384_issues_manual.csv` | 41、31、384 | 需人工处理的站点、门户未执行检索词、待人工翻阅的公报期次 |
+| `clue_packages_review.csv` | 86 | 86 个线索包的本轮处置（43 个已入库或并入，43 个未编号） |
+| `pkulaw_title_status_summary.csv` | 5 | 北大法宝 1,155 条题录处置状态汇总（题录本身不公开） |
+| `retrieval_gaps.csv` | 10 | 登记来源待补原件 |
+| `qc_duplicate_review.csv`、`qc_date_supplement.csv` | 1、2 | 版本关系与日期补充 |
+| `doc_id_changes.csv` | 16 | 编号变更对照 |
+| `texts/{doc_id}.txt` | 207 | 正文 |
+
 ## 怎么读
 
 - **来源记录不等于政策份数。** 同一文件在国务院政策库、部委官网各有一份时记两条。`policies.csv` 只合并了已确认的 27 组同文，没发现的重复还在里面。
@@ -49,5 +68,6 @@
 
 - 原件（官网 HTML、PDF、Word、WPS 及附件）和网页打印快照：体积约 790 MB，不放进 Git 历史，作为附件发布在 [Release `data-central-20261115`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)。解压后按 `central/{检索单元}/{doc_id}/` 查找，包内 `MANIFEST.csv` 列出每个文件的 SHA-256。
 - 浙江省原件（第二轮编号）：发布在 [Release `data-zhejiang-20261116`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-zhejiang-20261116)；第一轮的 `data-zhejiang-20261115` 按旧编号保留。解压后主库/辅库来源在 `zhejiang/originals/{doc_id}/`，线索库和独立线索包在 `zhejiang/clues/`，每个文件夹的 `meta.json` 记录来源 URL、哈希、引文和初读结论；包内 `MANIFEST.csv` 列出每个文件的 SHA-256。
+- 江苏省原件（第二轮）：发布在 [Release `data-jiangsu-20261116`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangsu-20261116)；主库来源在 `jiangsu/originals/{doc_id}/`，未编号线索包在 `jiangsu/clues/`；本机路径已改为相对路径。
 - 检索候选题录：其中大部分来自北大法宝检索结果，不公开转载。
 - 问题单和工作日志：内部过程记录，只公开汇总数字。

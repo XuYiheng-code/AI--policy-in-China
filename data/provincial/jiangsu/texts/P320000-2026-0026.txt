@@ -1,0 +1,89 @@
+为进一步促进江苏省生成式人工智能创新发展和规范应用，江苏省网信办按照《生成式人工智能服务管理暂行办法》要求，有序开展我省生成式人工智能服务备案工作。同时，对通过API接口或其他方式直接调用已备案大模型能力，且面向境内公众提供具有舆论属性或者社会动员能力的生成式人工智能服务，采用登记管理方式，允许上线提供服务。
+截至2026年10月12日，我省新增26款已完成登记的生成式人工智能服务，累计登记117款，现将我省已登记信息予以公告。已上线的生成式人工智能应用或功能，应在显著位置或产品详情页面标明所取得的上线编号。
+备案咨询电话：025-86292815（来电咨询请明确告知备案主体基本信息）。
+附件：江苏省生成式人工智能服务登记信息
+相关信息
+江苏省生成式人工智能服务已备案、登记信息公告汇总
+
+[正文图片OCR img01.jpg]
+附件
+
+江苏省生成式人工智能服务登记信息
+
+序号| ”应用/功能       登记单位           上线编号        登记时间
+_               南京姑我等能“iangsu-ZhaoDaoWo-20261
+1        到我                                         2026-10-12
+找到我      科技有限公司        012S0092
+苏惠保服务     东呈人寿保险 |Tiangsu-SuHuiBaoFuWuZh|
+2 | 区 全          汪  5 保险           -      册        2026-10-12
+智能体         股份有限公司“| iNengTi-20261012S0093
+四       区人 托     江苏 兴国际人 托  iangsu，          engKel 7510.12
+智能客服      有限责任公忆      Fu-20261012S0094
+网                         Jiangsu-JianKangXingWei
+健康行为干预
+4       智能助手                         GanYuZhiNengZhuShou-2 |2026-10-12
+四                            0261012S0095
+智夫重卡能源              运力于    -ZhiQi        aN|
+5   智贡 卡能 原           力|riangsu-ZhiQingZhongK:  站
+大模型                                                    engYuan-20261012S0096
+本          Tiangsu-ZhiRunDuanCeM
+6     知润端侧        败知能科技  XingEuWir20261012S009 2026-10-12
+智和天成        京等和天成 |五     -ZhiHeTianChengA
+7     入和天记     南京智和关 攻            2026-10-12
+AI 服务        科技有限公司 | IFuwWu-20261012S0098
+动缘 AIAgent |江苏洒微知著智能|开    -BianYuanAIAgent
+8 | 这经  Pa 苏洽微和 着知人  ER     Sn |2026-10-12
+平台         科技有限公司 “| PingTai-20261012S0099
+       天聚地合 (苏州 ) Tiangsu-JuHeShuJu-202610|
+9      聚合数据      和                         2026-10-12
+科技股份有限公司              12S0100
+苏州猜猜看 |Jiangsu-LovekeyAbp-2026
+10 | LovekeyA               、                          2026-10-12
+"sy名 | 科技有限公司         1012So101
+南通云推网络 “riangsu-AISpeed-20261012
+11           AI Speed                ，                                                                       2026-10-12
+科技有限公司           S0102
+时       人      智算星空 ( 无锡 ) |Jiangsu-EchoPet-20261012 和
+0     信息技术有限公司         S0103
+这   AMMind 增材               维|Jiangsu-AMMindZengCai- 1人
+大模型                                                    20261012S0104
+                     Jiangsu-QuanMEeiTiZhiNen
+14 | 全媒体智能客服                    SOQu            2026-10-12
+KeFu-20261012S0105
+二    跷法狮法律                   [EngRrXiaaEaSHiRSEWZH 人
+智能体                                          NengTi-20261012S0106
+本    _                Jiangsu-ZhouTongXueHeJi
+16 | 周同学和教练                               2026-10-12
+同学和教练                    aoLian-20261012S0107
+谎山虎智能体                 Jiangsu-PaShanHuZhiN
+17 | 息册 有 能体                  0          2g|2026-10-12
+平台                                TiPingTai-20261012S0108
+ee                  [riangsu-BoSuoRongKe202|
+18           伯索融课                                                四                                     2026-10-12
+61012S0109
+四                                  [iangsu-JuLiuKeJi-2026101
+19     巾流科技        ee       2026-10-12
+2S0110
+阿拉梦幼教”|江苏成长轨迹教育|五     -ALaMengYouJi
+世  /教    苏 成长  5孝 了|Jiangsu，      gYouiao-|)o5.10.12
+大模型      科技有限公局      20261012S0111
+_      苏州趣狗风网络 |riangsu-HuanShi-20261012|
+刘      幻视      辆  各 民                  2026-10-12
+科技有                S0112
+有   瑞祥 AT 导购 “| 瑞祥全球购超市 [Tiangsu: RuiXiangAIDaoGol ,05.10.1?
+助手             有限公司      IuzhuShou-20261012S0113
+                网络    Jiangsu-MiXiaoYuApp
+23    蜜小语A|            、                     2026-10-12
+和      技有限公司     -20261012S0114
+、        _      入州立骨科技 “|Jiangsu-LiDanAIZhuSho
+24 | 立丹AT 巧手 | 蕴  有 科技             |2oz6-10-12
+有          20261012S0115
+                      1Ti     WuXiChengXiaoG;
+无锡城小管                   相
+25                   uanAIShuZiRen-20261012|2026-10-12
+AI数字人
+S0116
+各Tiangsu-SmartY-   tB
+26 |SmartYAgentBase                            人gentBase -|2026-10-12
+20261012S0117
+
