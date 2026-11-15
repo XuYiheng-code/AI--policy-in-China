@@ -3,3 +3,28 @@
 *.sqlite-wal
 *.sqlite-shm
 __pycache__/
+
+# Local collection outputs and environments
+.venv/
+.browser-profile/
+00_admin/baseline/
+00_admin/checks/
+00_admin/handoff/
+01_roster/
+02_search_logs/
+03_originals/
+04_text/
+05_db/
+06_qc/
+07_legacy/
+08_clues/
+09_aux/
+work/
+
+.tools/
+
+# Local working folders (paths and internal logs; not published)
+00_admin/
+agent_tasks/
+outputs/
+scripts/
