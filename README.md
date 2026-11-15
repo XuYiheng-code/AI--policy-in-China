@@ -13,7 +13,8 @@
 
 - 📘 **[工作指南 PDF（v1.0，53 页）](docs/AI-Policy-DB-Guide_v1.0.pdf)**
 - 📊 **[中央层运行报告 PDF（2026-11-15，34 页，含 652 条政策清单）](docs/reports/central_report_20261115.pdf)**
-- 🗂 **[中央层数据](data/)**
+- 🗂 **[中央层数据](data/)**：政策清单、来源记录、检索日志、正文
+- 📦 **[中央层政策原件（Release 附件，约 790 MB）](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)**：818 条记录的官网原件与附件
 
 <br clear="right">
 
@@ -127,7 +128,7 @@ legacy/oldlib_diagnosis.csv        旧库 673 个文件的诊断与建议去向
 assets/                            图片
 ```
 
-口径只在一处修改：先改指南的口径数据，再同时重新生成指南、表单和执行包，不直接改 `rules.json` 或提示词。原件、网页快照、数据库和工作目录体积较大，保存在本地，不进仓库。
+口径只在一处修改：先改指南的口径数据，再同时重新生成指南、表单和执行包，不直接改 `rules.json` 或提示词。原件和网页快照体积较大，按层级打包为 Release 附件发布，不进 Git 历史；数据库和工作目录保存在本地。
 
 ---
 

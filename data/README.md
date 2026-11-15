@@ -27,6 +27,6 @@
 
 ## 不在这里的东西
 
-- 原件（官网 HTML、PDF、Word、OFD 及附件）和网页打印快照：约 860 MB，保存在本地，按 `doc_id` 可查，`source_records.csv` 中的 `sha256` 可用于校验。
+- 原件（官网 HTML、PDF、Word、WPS 及附件）和网页打印快照：体积约 790 MB，不放进 Git 历史，作为附件发布在 [Release `data-central-20261115`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)。解压后按 `central/{检索单元}/{doc_id}/` 查找，包内 `MANIFEST.csv` 列出每个文件的 SHA-256。
 - 检索候选题录：其中大部分来自北大法宝检索结果，不公开转载。
 - 问题单和工作日志：内部过程记录，只公开汇总数字。
