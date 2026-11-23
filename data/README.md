@@ -1,6 +1,6 @@
 # 数据说明
 
-目前有中央层（L1，快照 2026-11-15 02:31）、浙江省和江苏省（L2，均为 2026-11-16 第二轮）三批数据。**全部为智能体与脚本初判，尚未人工核验**，采集也没有完成，详见 [中央层运行报告](../docs/reports/central_report_20261115.pdf) 、[浙江省现状说明](../docs/reports/zhejiang_report_20261116.pdf) 和 [江苏省现状说明](../docs/reports/jiangsu_report_20261116.pdf)。
+目前有中央层（L1，快照 2026-11-15 02:31）和七个省级单元（L2：浙江、江苏、山东为 11-16 第二轮，湖南 11-16，上海、安徽、福建 11-23）的数据。各省现状说明见 `docs/reports/`。**全部为智能体与脚本初判，尚未人工核验**，采集也没有完成，详见 [中央层运行报告](../docs/reports/central_report_20261115.pdf) 、[浙江省现状说明](../docs/reports/zhejiang_report_20261116.pdf) 和 [江苏省现状说明](../docs/reports/jiangsu_report_20261116.pdf)。
 
 ## data/central/
 
@@ -55,6 +55,30 @@
 | `doc_id_changes.csv` | 16 | 编号变更对照 |
 | `texts/{doc_id}.txt` | 207 | 正文 |
 
+## 其他省级单元（2026-11-23 导出）
+
+上海、安徽、福建、山东、湖南用同一套文件，由各省桌面阅读版和采集底稿导出：
+
+| 省份 | 文件夹 | 独立政策 | 来源记录 | 检索日志 | 正文 |
+|---|---|---:|---:|---:|---:|
+| 上海 | `provincial/shanghai/` | 278 | 281 | 2608 | 281 |
+| 安徽 | `provincial/anhui/` | 320 | 342 | 1462 | 342 |
+| 福建 | `provincial/fujian/` | 265 | 361 | 4459 | 361 |
+| 山东 | `provincial/shandong/` | 254 | 269 | — | 299 |
+| 湖南 | `provincial/hunan/` | 370 | 370 | 5926 | 370 |
+
+| 文件 | 内容 |
+|---|---|
+| `policies.csv` | **独立政策清单**，一行一份：`policy_id`、`title`、`issuers`、`date`（`date_type` 发布/成文/通过，`date_basis` 依据）、`relevance`、`doc_class`、`policy_form`、`completeness`、`source_doc_ids`（并入的来源记录）、`ai_evidence_excerpt` |
+| `source_records.csv` | 全部登记记录（底稿字段原样），另加 `policy_id`、`archive_dir`（原件包内路径）；山东为阅读版来源对照表 |
+| `route_status.csv` | R1—R7 检索状态与卡点 |
+| `search_log.csv` | 检索日志，含 0 命中（山东底稿未单列，暂缺） |
+| `agency_coverage.csv` | 机关、R2 日志数、登记记录数 |
+| `qc_duplicate_review.csv`、`qc_date_supplement.csv`、`qc_similar_pairs.csv` | Claude 全文查重结论、无日期政策的日期补充与依据、内容相近但分别计数的文件对（有则提供） |
+| `texts/{doc_id}.txt` | 全部来源记录的正文 |
+
+上海的 9 部地方性法规在人大网站上的发布日期都是 2025-08-05（网站统一上线日），`policies.csv` 已改用通过日期，`source_records.csv` 保持底稿原样。
+
 ## 怎么读
 
 - **来源记录不等于政策份数。** 同一文件在国务院政策库、部委官网各有一份时记两条。`policies.csv` 只合并了已确认的 27 组同文，没发现的重复还在里面。
@@ -69,5 +93,10 @@
 - 原件（官网 HTML、PDF、Word、WPS 及附件）和网页打印快照：体积约 790 MB，不放进 Git 历史，作为附件发布在 [Release `data-central-20261115`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)。解压后按 `central/{检索单元}/{doc_id}/` 查找，包内 `MANIFEST.csv` 列出每个文件的 SHA-256。
 - 浙江省原件（第二轮编号）：发布在 [Release `data-zhejiang-20261116`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-zhejiang-20261116)；第一轮的 `data-zhejiang-20261115` 按旧编号保留。解压后主库/辅库来源在 `zhejiang/originals/{doc_id}/`，线索库和独立线索包在 `zhejiang/clues/`，每个文件夹的 `meta.json` 记录来源 URL、哈希、引文和初读结论；包内 `MANIFEST.csv` 列出每个文件的 SHA-256。
 - 江苏省原件（第二轮）：发布在 [Release `data-jiangsu-20261116`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangsu-20261116)；主库来源在 `jiangsu/originals/{doc_id}/`，未编号线索包在 `jiangsu/clues/`；本机路径已改为相对路径。
+- 上海市原件：发布在 [Release `data-shanghai-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shanghai-20261123)；登记记录原件在 `shanghai/originals/{doc_id}/`，线索材料在 `shanghai/clues/`，待核补件在 `shanghai/pending_supplements/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
+- 安徽省原件：发布在 [Release `data-anhui-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-anhui-20261123)；登记记录原件在 `anhui/originals/{doc_id}/`，线索材料在 `anhui/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
+- 福建省原件：发布在 [Release `data-fujian-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-fujian-20261123)；登记记录原件在 `fujian/originals/{doc_id}/`，线索材料在 `fujian/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
+- 山东省原件：发布在 [Release `data-shandong-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shandong-20261123)；登记记录原件在 `shandong/originals/{doc_id}/`，线索材料在 `shandong/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
+- 湖南省原件：发布在 [Release `data-hunan-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-hunan-20261123)；登记记录原件在 `hunan/originals/{doc_id}/`，线索材料在 `hunan/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 检索候选题录：其中大部分来自北大法宝检索结果，不公开转载。
 - 问题单和工作日志：内部过程记录，只公开汇总数字。

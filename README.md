@@ -15,12 +15,17 @@
 - 📊 **[中央层运行报告 PDF（2026-11-15，34 页，含 652 条政策清单）](docs/reports/central_report_20261115.pdf)**
 - 🗂 **[中央层数据](data/)**：政策清单、来源记录、检索日志、正文
 - 📦 **[中央层政策原件（Release 附件，约 790 MB）](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)**：818 条记录的官网原件与附件
-- 📊 **[浙江省现状说明 PDF（2026-11-16 第二轮，28 页，含 397 份政策清单和 58 份待裁决清单）](docs/reports/zhejiang_report_20261116.pdf)**
-- 🗂 **[浙江省数据](data/provincial/zhejiang/)**：独立政策清单、来源记录、检索日志、B 级口径复核、待裁决清单、正文
-- 📦 **[浙江省政策原件（Release 附件）](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-zhejiang-20261116)**：559 条记录的原件与线索包（第二轮编号）
-- 📊 **[江苏省现状说明 PDF（2026-11-16 第二轮，含 199 份政策清单）](docs/reports/jiangsu_report_20261116.pdf)**
-- 🗂 **[江苏省数据](data/provincial/jiangsu/)**：独立政策清单、登记记录、检索日志、浙江影子清单对照、待人工清单、正文
-- 📦 **[江苏省政策原件（Release 附件）](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangsu-20261116)**：207 条记录与 43 个未编号线索包的原件
+- 🗺 **省级（7 个单元，独立 A/B 政策合计 2,083 份）**：每省有现状说明 PDF、数据文件夹和原件 Release
+
+| 省份 | 底稿 | 独立政策 | A / B | 现状说明 | 数据 | 原件 |
+|---|---|---:|---|---|---|---|
+| 浙江省 | 2026-11-16 第二轮 | 397 | 60 / 337 | [PDF](docs/reports/zhejiang_report_20261116.pdf) | [zhejiang/](data/provincial/zhejiang/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-zhejiang-20261116) |
+| 上海市 | 2026-11-23 | 278 | 66 / 212 | [PDF](docs/reports/shanghai_report_20261123.pdf) | [shanghai/](data/provincial/shanghai/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shanghai-20261123)（432 MB） |
+| 江苏省 | 2026-11-16 第二轮 | 199 | 63 / 136 | [PDF](docs/reports/jiangsu_report_20261116.pdf) | [jiangsu/](data/provincial/jiangsu/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangsu-20261116)（197 MB） |
+| 安徽省 | 2026-11-23 | 320 | 57 / 263 | [PDF](docs/reports/anhui_report_20261123.pdf) | [anhui/](data/provincial/anhui/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-anhui-20261123)（422 MB） |
+| 福建省 | 2026-11-23 | 265 | 101 / 164 | [PDF](docs/reports/fujian_report_20261123.pdf) | [fujian/](data/provincial/fujian/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-fujian-20261123)（658 MB） |
+| 山东省 | 2026-11-16 第二轮 | 254 | 60 / 194 | [PDF](docs/reports/shandong_report_20261116.pdf) | [shandong/](data/provincial/shandong/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shandong-20261123)（150 MB） |
+| 湖南省 | 2026-11-16 | 370 | 70 / 300 | [PDF](docs/reports/hunan_report_20261116.pdf) | [hunan/](data/provincial/hunan/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-hunan-20261123)（419 MB） |
 
 <br clear="right">
 
@@ -31,7 +36,7 @@
 | P0 准备 | 执行环境、名录、建库脚本 | 🔄 基本就绪，验收门 G0 未过 |
 | P1 试点 | 11 个单元全流程，校准口径与提示词 | ⬜ 未做（先行开展了中央采集） |
 | P2 中央 | 66 个机关单元 | 🔄 采集中，见下方摘要 |
-| P3 省级 | 32 个单元 | 🔄 浙江、江苏完成两轮（未验收），山东已并入标准流程，其余进行中或未开始 |
+| P3 省级 | 32 个单元 | 🔄 浙江、上海、江苏、安徽、福建、山东、湖南 7 个单元已整理（均未验收），江西进行中，其余未开始 |
 | P4 第三层 | 451 个单元，按省分批 | ⬜ |
 | P5 全库质检 | 去重、关系、召回估计、冻结 v1.0 | ⬜ |
 
@@ -65,6 +70,22 @@
 1. 补 R2 站内检索，先做手册点名的数据局、工信部、科技部，再做登记量大的网信办、教育部。
 2. 从 818 条记录中抽第一批做人工核验，过验收门 G0。
 3. R2、R6 补齐后做全库去重，再确定中央层政策份数。
+
+## 省级进度（2026-11-23）
+
+> 七个省级单元的独立 A/B 政策合计 2,083 份（A 级 477、B 级 1,606）。数字均为智能体初判，**人工核验 0 条**，没有一个单元验收。各省数量差别主要来自检索覆盖，不能当作各省政策量的比较。
+
+| 省份 | 独立政策 | A 级 | 原件核齐 | 主要缺口 |
+|---|---:|---:|---|---|
+| 浙江 | 397 | 60 | 96 份（24%） | 58 份 B/C 边界待人工裁决；356 个 URL 需人工下载 |
+| 上海 | 278 | 66 | 277 份 | 1,154 份门户原件已下载未读、7,708 个部门 URL 未取文、1,812 条题录未筛 |
+| 江苏 | 199 | 63 | — | 门户、公报 403；浙江影子清单 459 条中 435 条被拦截 |
+| 安徽 | 320 | 57 | 320 份（缺件文件放在待定） | 门户、公报 403；5,356 条题录中 4,603 条未读全文；9 份待定 |
+| 福建 | 265 | 101 | 160 份（60%） | 1,914 份命中材料未审读 |
+| 山东 | 254 | 60 | — | 门户 403；原件与附件缺口 |
+| 湖南 | 370 | 70 | 29 份（8%） | B 级未按浙江口径复核；整期公报待转换 |
+
+各省数据文件夹的文件：`policies.csv`（独立政策，一行一份）、`source_records.csv`（来源记录）、`route_status.csv`（R1–R7 检索状态）、`search_log.csv`（检索日志，山东无）、`agency_coverage.csv`（机关覆盖）、`qc_*.csv`（重复、日期、相似文件核查）、`texts/`（正文）。北大法宝题录清单不公开。
 
 ## 浙江省执行摘要（第二轮，快照 2026-11-16）
 
@@ -155,6 +176,7 @@ data/
   central/                         中央层数据：政策清单、来源记录、检索日志、正文
   provincial/zhejiang/             浙江省数据：独立政策清单、来源记录、检索日志、B 级复核与待裁决清单、正文
   provincial/jiangsu/              江苏省数据：独立政策清单、登记记录、检索日志、影子清单对照、待人工清单、正文
+  provincial/{shanghai,anhui,fujian,shandong,hunan}/  其他省级数据：独立政策清单、来源记录、检索状态、质量核查、正文
 
 执行包（Codex 以仓库根目录为工作目录）
 AGENTS.md                          执行说明：依据、硬性规则、目录约定、每次运行的开始与结束动作

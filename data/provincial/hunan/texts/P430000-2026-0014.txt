@@ -1,0 +1,284 @@
+各市州卫生健康委、发展改革委、工业和信息化局、数据局,省卫生健康委直属和联系单位:
+
+为深入贯彻党中央、国务院关于加快发展人工智能的决策部署,落实省委、省政府工作要求,根据《关于促进和规范“人工智能+医疗卫生”应用发展的实施意见》(国卫办规划发〔2025〕30号)、《湖南省人民政府关于印发〈湖南省贯彻落实国务院“人工智能+”行动的实施方案〉的通知》(湘政发〔2025〕7号)等文件要求,省卫生健康委、省发展改革委、省工业和信息化厅、省数据局、省中医药局、省疾控局于9月份联合举办了2026年湖南省“人工智能+医疗卫生”应用大赛。经初赛、决赛等程序,评选出优秀组织奖8名、一等奖8名、二等奖16名、三等奖24名、优秀奖36名,现将比赛结果予以公布(详见附件1至附件5)。
+
+希望获奖单位珍惜荣誉、再接再厉,充分发挥示范引领和典型带动作用,加快推动人工智能在临床诊疗、公共卫生、中医药、基层医疗等场景的落地应用,让更多优秀成果从赛场走向临床、走向基层、走向群众,不断增进人民群众健康获得感。
+
+湖南省卫生健康委员会
+
+湖南省发展和改革委员会
+
+湖南省工业和信息化厅
+
+湖南省数据局
+
+湖南省中医药管理局
+
+湖南省疾病预防控制局
+
+2026年10月9日
+
+[附件3]
+
+
+[附件5]
+
+[附件4补回原件提取/OCR，待核]
+
+[PDF中文OCR，第1页；原件SHA256 1983a2b5484cd84bdd31efd565f98c4c23520a3682b88b64537ce2d28e63b225；待核]
+附件 3
+
+2026 年湖南省“人工智能+
+
+eI, WAL” HAE PRA
+
+序号             案例名称                  申报单位              联合申报单位               团队成员
+wae gue Ww buh iouns            DT    REE GSE -
+
+|。 | AR Area RET BEEN IOK | 中南大学汀牙医院。 | 淹南兴航飞行低空科技有限公司    foe. he wie.
+
+系统                               湖南凌智信息科技有限公司      een ar
+REED    =        hil. Ue. RR
+
+2 | 基于大模型的住院药学 AI 全流程监护系统“| ”中南大学湘雅二医院  si URI ha        bie oh eRe
+6   + Lo»    省太   A @b jst Gb BL ye ee                                         ¥   a ay 浩东、    ir
+
+5 | SRF RE TERE | oa ca                   i
+Aw Se |                   MS Wa, FER
+
+4 | 寒杂病论集注》智能化交互系统       湖南省中医药研究院                   Bike. EK
+
+。 | ERCP LEAT ERAT BME | WR AREEEDE CUTIE | 站         in. 2 wo
+系统                  范大学附属第一医院)   aie         OTL
+ABE AR: FPR EE | eam                    Le. BLM 条
+
+6 | 服务平台创新应用              湖南省妇幼保健院                    ce ee
+
+7 | 5G 数智化妊高症管理平台          湖南省妇幼保健院                    着开交 ee
+立体定向一站式放疗 (SBRT-AIO) : AI Jit     RE                             倪千喜、刘 怀、庞金狐、
+
+8 | 能的非小细胞肺六即时诊疗新模式       湖南省肿瘤医院                    王蔡妍、朱俊
+
+。 | SuSE FLARE | ae                    . Be. BS.
+景智能分析实践                                          科峰、舒孝文
+
+|。 | 草根疾控.AI 哨兵"人工智能冉能传染“| RAE RTT | 中国电信股份有限公司潮南分公司 。 | BE
+病症候群监测预警创新实践            院)  DAES | 北京健康在线网络技术有限公司    VARI. iy
+
+| | A EF ERROR | emewnmpeme | aes              Wi. Rk. Bin GA
+
+AI风险预测与分层管理平台
+
+一 3 一
+
+
+[PDF中文OCR，第2页；原件SHA256 1983a2b5484cd84bdd31efd565f98c4c23520a3682b88b64537ce2d28e63b225；待核]
+序号            案例名称                申报单位             联合申报单位              团队成员
+下       ~      7         下       can | 中国移动通信集团测两有限公司湘潭“| See, we
+SRA SEE   Nish yas AS SH   =  平公      SRA EE       AA
+12 [ARE AT RGAE ERHARD      HE ERAGE AE | 分公司、淹南湘约健康科技有限公司“| Beall EE
+云龙、喻”平、蒋明彦、
+| | 基于多千能体的慢性阻塞性肺疾病全周期知 | een pepe | 湖南大学计算机学院        和全全 ae
+bids Ey ane                       [eh     S       :  bas  ae   \司湘酒分从局       >  TERED
+能铺助诊疗                                            中国电信息份有限公司湘潭分公司 。 | Se 失思二
+AMES SAME EIA MEE | ee pee                    Whe. Bre, a.
+“| 置用于儿童斜颈及姿势异常防控          NONI AS KRESS                          (EE. BRA
+WCF —AL RAE LT ACEI | ey aa                   a a a 到要、
+S| 一体化协同平台                    KD EARIR DE                           Ws REF
+Ek He RPE | RR | AT        _ | Rian, BE TR,
+16 | bese sient A                    生服务中心 | PPRNAPCRHURO TRA) | sigh, kat
+
+
+[PDF中文OCR，第1页；原件SHA256 b165d48b9cfb0f3b6de0cd5dd1699ff2406ae43d3ace2d18485ddb8354e0eed3；待核]
+附件 5
+
+2026 年湖南省“人工智能+
+
+委闻卫生”应用大赛优秀奖获奖名单
+
+序号         案例名称             申报单位          联合申报单位          团队成员
+AT aS ES      TD       DO EE Wo, OR OR
+国民              中南大学汀医院 | 人卫 (北京) 医学科技发展有限公司| 7 Be
+基于真实世界煞据与可解释机器学司的径     一               ~
+FRSA AEH Bla IE    sw La | 湖南省人民医院         THM. EO
+2   DALI FS 7 THR SS 99 Fak EP     中南大学湘雅三医院    湖南省第二人民医院           张佳琪、余佳周
+EEA TEED TR DEN OS SIE    ahem mem | way paeunnmea ee        ko. Ree Hw.
+3   病智能辅助盘查系统                     中南大学湘雅二医院     浙江大学湖州研究院             pare
+DS He LR     ibe                    & A REE. oN
+4 | rane IRIE         PEK HAE — DB                   Sea. 15a
+OBE Wisin Ae RE KAO ETE      cues                   eRe hs 8
+5 “| 化病人临床实训平台            中南大学湘雅一医院                   ee
+。 | HAREM AI WHEMOIR | AOL | 中十大学计算机学了       xe. AI RO
+统                        学湘雅一医院。 | 北京银杉塞视健康科技有限公司| 代洲洪、许欣属
+7 | 数智医院建设智能评价系统         中南大学湘雅三医院                   ee ge
+g | 基于 AL 的院感监测数据分析系统     PE TTBS 长沙爹域医学检验实验室有限公司  了 He
+oo      We TEBAE EERE                 Kk BOER. Tae.
+2a DY ibs BEB            DIT Ae
+9 | 智驭耽康一腕手康复 AI 辅助诊疗系统       工程学院                     PLAIN. IEE GES)
+_    -                  、             袁增强《指导老师) 、
+基于 AI 四诊量化的头颈部肿瘤放射性口腔   ur es | 南华大学            Pech ue ea
+10 | arity Be AUSELG TF EERE       南学大学附属第“医院 | 南华大学附属第一医院       IE FE.
+HEGM, TPE ALE | 4) mmemome                   WER ERR
+11 | 医安全用药科普创新项目          南华人学附属第一医院                   fi. FEI
+
+一了一
+
+
+[PDF中文OCR，第2页；原件SHA256 b165d48b9cfb0f3b6de0cd5dd1699ff2406ae43d3ace2d18485ddb8354e0eed3；待核]
+序号        案例名称            申报单位          联合申报单位          团队成员
+12 | Ar 辅助中西医结合全周期慢到管理     南华大学附属第二医院 | 洗全去计算科技股份有限公司 [ERE TE Sh ANS
+SAP HE, PRMEA—WENBRAB | OO                   eR GA. ER
+3 | ar                  南华大学附属第二医院                   me
+ETAL SRM TEED LEUEEEE | aopumanome |        Ba. WRN WER.
+4 | EEA Tet             南华大学附属第二医院 | 南华大学计算机学院        oe ae
+“DEAT HAI FARMS | oe oe ae ge | MODE EE ET         AR. XO WER
+15 | eeppeawe Gokee, bei ervey | REARS | 淹南天工远科信息技术有限公司 | SEA. JAMBI
+入工智能贱能临床专项 研教学一体化复合| ou | on pose | Be
+16  型医疗人才培育应用案例               湖南医药学院总医院    贵州大学计算机科学与技术学院    APE. ABINE
+| | Rese SLED | SEARED GIL | PRAM ARAM > Re OOH, BR
+Fi SEITE 39 — HME YA      大学附属第一医院) | 分公司             Hae. eee
+KBAR, CMH | WOE ARE OG |p oem anmaanmang |刘 ae GD BT
+18 | ALTERS                 fompne,    北京华益精点生物技术有限公司 | TE
+iB WE                本                  ‘ate wen
+19 | 基于国产开源多模态大模型自主研发的神 | MERI ARID                   本也和地和 工 下
+经肿瘤影像驱动全息 MDT 临床智能体
+基于影像组学的肺交个性化治疗铺助次    和      cena        a ers
+29 | ee                   湖南省肿瘤医院 | 中南大学计算机学院        ane
+| AEBEA SRL THES FRM A    ee thoes                    a ae ee
+HUH ER A ES FES                               ava. Wit
+oe | 风险智能评估与决策模型在重症吓儿阮间    RD                    OEE. Hae, ERE,
+钱诊中的应用                    aa                    el 18. ERLE
+23 | 用人单位职业健康风险治理智能服务平台“| 。 湖南省职业病防治院 | 中卫信软件股份有限公司      ee
+KLEE | SAAMI OH DOA     a oe a 2
+24 | 应用                    南省第三人民医院) — | 湖南创是科技股份有限公司     cee
+Hey AH aR AE We il Sj   APE D>   yrs
+25 | AUACINRRER RLS RH SLR | trctnespeme | 深圳云医创想科技有限公司    PRCA fe WE, EZ
+
+的精准医疗服务
+
+一8 一
+
+
+[PDF中文OCR，第3页；原件SHA256 b165d48b9cfb0f3b6de0cd5dd1699ff2406ae43d3ace2d18485ddb8354e0eed3；待核]
+序号          案例名称               申报单位            联合申报单位            团队成员
+
+AT IRGEDT EER OVO EEA | ge                        we So. 芋洪证
+26 | 化脂肪肝规范化健康管理项目        THE PGS                  唐学、谢国新
+
+Fr den Beds Re Ee Pas aS  9胸部-骨折-      oo                             7  /    ;
+27 | ag ER ALIBI Sin      湘潭市中心医院                             Se _亭、林山月、李定华
+
+WHIM CORT REE |        下                           Tn. He. WA.
+28 | 功能康复训练的应用           sain Fath Pala                 EB). PASH
+
+IEF OR 5 Lee KROL IT        ee          oe            IDLY, WE. DE
+29 | EO             BET geez | 邵阳市中心医院            on
+30 | 智慧阅片辅助 AL 在脑灌注的应用       岳阳市中心医院                  ARE. HIRI
+a | ALTREC DEI    Mimo oe 7 ee ae
+
+应用实践                                                      任公司、苏州沿领医疗科技有限公司 | Werk. EP
+
+于星火医;  phi OY He RIS Ja                                  AR. ZEAE. WR SR.
+32 | BEARS AEE ES 1 uit ARBebE | CRBS RRERLEDATTR    Ob hope
+。 ARERR ROE SETI | DRMR RED: GRRE | Wilh RAD MEA RO A    EM. EW. REA.
+
+方便民服务                     缘中医医院互联网医院) | 广东省健缘云健康管理有限公司“| DOH. HTK
+
+ET AWRHRMMMCIMAD SERS |        .       本       李 RT FR A
+34 | seeps             浏阳市中医医院 | 北京数坤科技股份有限公司    cen ak
+
+LANE TE aU SCN ES DE     nen | MER | 赵双喜、涂 峰、 疝 油
+35 | 诊疗中的应用               PUR ARRES De | 浏阳市金刚镇卫生院       RACE. AR
+
+EF Al RAPED PREM                                         ae eon
+
+1  pai     :HEcf人本层开立各和       as     -par                         陈  my Gi. 聂绍基、
+36 | 器人打造县域中西医协同“体质五音灸"调      道县人民医院                            fe ganas
+
+Dee. ISA
+
+理标准化标杆
+
+
+[PDF中文OCR，第1页；原件SHA256 0471dc5188b57fbe094b7fc4d1dc8053b54cfc646fda5b919ab904055f02b72a；待核]
+附件 4
+
+2026 年湖南省“人工智能+
+
+于闻卫生”应用大赛三等奖获奖名单
+
+序号         案例名称             申报单位          联合申报单位           团队成员
+ET AMES SEM EN ES      sown   WHIM MHRA     Hue. oH
+| |e ee               中南大学湘雅医院 | 杭州希和信息技术有限公司     aa
+EF Al BLN? AMIRI OSAMOE| yom me |    -     One XE TE
+2 |过夫人                中南大学酒雅二医院 | 湖南万脉医疗科技有限公司     Me kW
+5 ACRE AT EO AETETIT | rca pe                   WEE, BR Dh
+在心血管专病精准诊疗中的应用实践       人人                   刘继佳、艾祁
+yeoman sues          i GSE . P=.
+4 | SAT CPE) 超早期智能预警系统        中南大学湘雅二医院   湖南长沙泽弘网络科技有限公司    nna 刘艺平、左建中、
+EPR WARMER EIT     wwe   EPA GD) Wma | Ura i TNE
+5 “| AI 预警与死亡病例闭环质控系统       南华六学附属第一医院 | 照牛医疗科技《浙江) 有限公司 | geen oe gg
+。 |基于深度学习的空间分制放疗 (SFRT) WE | ume: | 市国医学科学院肝病医院深圳医院“| 谢，辉、代特涛、允金城
+靶区勾画系统                   学院附属医院 | 深影医疗科技〈深圳》 有限公司 | 李”林、 胡杨志 (指导老师)
+tt            | ATT A        a eT Mee
+< IP] ae eae   ht Ae               18 Fa     学    学院           -
+7 | 罕见病智能辅助诊断系统                  湖南工商大学计算机学院  中南大学湘雅医院                陈子弘、黄华
+AT电条最云平台在临床诊疗及基层医疗机 | WAAR Gm |,    wa | 范味梅、户 同、再春霞
+8 | 构的应用实践                范大学附属第一医院) | 深圳市理邦精密仪器股份有限公司| ey pak
+HERS OM, ALR | 淹南省人民医院 湖南所| > cman    BRR. Ok. WO
+9 | 便民服务                  范大学附属第一医院) | 湖南多层次商保科技有限公司    FF BE Aig
+ARE EPA Al NTA).    baa jpae             Bm & 6. ane.
+10 | 培训认证体系构建与应用            湖南省妇幼保健院 。 | 湖南人学             Soh. Hat (指导老师)
+1 CBOE AL 晃动的心理治疗服务所质一允    Wma ARER                  @ a, BAW, RAR.
+全栈信创底座上的创新应用          (湖南省脑科医院)                   王 道. 陈 Bi
+As   司 立 tL  Ye  B.  7
+12 | 智芯心电.肿瘤全周期 AI 智能诊疗协同平台    湖南省肿瘤医院 ”| 北京麦迪克斯科技有限公司     SF. ALE. ae. 王
+
+玮珍、孙培勇
+
+一5 一
+
+
+[PDF中文OCR，第2页；原件SHA256 0471dc5188b57fbe094b7fc4d1dc8053b54cfc646fda5b919ab904055f02b72a；待核]
+ar
+ui
+
+案例名称
+
+申报单位
+
+联合申报单位
+
+团队成员
+
+Al 情绪评估与音乐干预系统在肿瘤患者心理
+
+华中科技大学同济医学院附属协和
+
+MSR. AB EL RRR
+
+Be eT ee          湖南省肿痛医院 |e               ACR, MET. UD
+(指导老师)
+a
+14 eyo 全的儿童阴茎疾病 AI 辅助诊断|。 湖南省儿童医院                    fl. ERR
+—            _           kK. hE. = a
+湘职智防，AT 驱动的职业健康多危害风险预 | 。 ，，， mV ,| 湖南师范大学
+15 | 测与矩阵协同预警平台            济南省职业病防治院 | 中南大学湘雅医学院        站王八
+丰草松宵能体一一AT 驱动的医院靖细化运井| we           x, BI. RES
+16 | Peer                   湖南妇女儿童医院”| 老百姓大药房           oe eva
+TUG RADI PEO AMIER | 长沙市卫生信息中 | TARRRA MAAN [I AK. ARE
+17 康符护与基属医表协同应用          长沙市了生信息中心 “| 分公司              oe a
+ee    cosines                    fits &. SBI. TF
+18 | ims                    Kenn Bb                   SANE REE
+cnn 6 SURO ARMALE | Mme. x 用
+19 | AI 舌诊体质平衡系统                            长沙市中医医院       能研究院                          杨文君
+EERE aI BOLE    TO | WITH IZ OROEDE         ELEM 2 杨 做
+20 | 入工智能技术在宫颈瘤利查中的创新应用    HTT eee ee emuwman | mame con
+21 HEWN Gm hibloe Len abet)    amit oben: | 卫宁健康科技集团股份有限公司 。 | RR EBS TB
+建与验证                                                                                                   ia    :
+HT READER OMI | arg remap || NMARAREER TEAL WAT [TE PALL, PRE
+22 | 系统                    郴州市第“人民医院 | 准智能科技有限公          WR
+面向全市的肿交全病程稍能防滑写朵环管理    Te                    Wak. E—.
+23   平台                                           永州市中心医院                                         李，可、何素珍
+24 | AI影像精助诊断               石门县人民医院 ”| LRA © | a. od aR. BRE
+
