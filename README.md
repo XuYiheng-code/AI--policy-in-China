@@ -15,7 +15,7 @@
 - 📊 **[中央层运行报告 PDF（2026-11-15，34 页，含 652 条政策清单）](docs/reports/central_report_20261115.pdf)**
 - 🗂 **[中央层数据](data/)**：政策清单、来源记录、检索日志、正文
 - 📦 **[中央层政策原件（Release 附件，约 790 MB）](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)**：818 条记录的官网原件与附件
-- 🗺 **省级（7 个单元，独立 A/B 政策合计 2,083 份）**：每省有现状说明 PDF、数据文件夹和原件 Release
+- 🗺 **省级（7 个单元，独立 A/B 政策合计 2,289 份）**：每省有现状说明 PDF、数据文件夹和原件 Release
 
 | 省份 | 底稿 | 独立政策 | A / B | 现状说明 | 数据 | 原件 |
 |---|---|---:|---|---|---|---|
@@ -23,7 +23,7 @@
 | 上海市 | 2026-11-23 | 278 | 66 / 212 | [PDF](docs/reports/shanghai_report_20261123.pdf) | [shanghai/](data/provincial/shanghai/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shanghai-20261123)（432 MB） |
 | 江苏省 | 2026-11-16 第二轮 | 199 | 63 / 136 | [PDF](docs/reports/jiangsu_report_20261116.pdf) | [jiangsu/](data/provincial/jiangsu/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangsu-20261116)（197 MB） |
 | 安徽省 | 2026-11-23 | 320 | 57 / 263 | [PDF](docs/reports/anhui_report_20261123.pdf) | [anhui/](data/provincial/anhui/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-anhui-20261123)（422 MB） |
-| 福建省 | 2026-11-23 | 265 | 101 / 164 | [PDF](docs/reports/fujian_report_20261123.pdf) | [fujian/](data/provincial/fujian/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-fujian-20261123)（658 MB） |
+| 福建省 | 2026-11-23 第二轮 | 471 | 109 / 362 | [PDF](docs/reports/fujian_report_20261123.pdf) | [fujian/](data/provincial/fujian/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-fujian-20261123-r2)（1.1 GB） |
 | 山东省 | 2026-11-16 第二轮 | 254 | 60 / 194 | [PDF](docs/reports/shandong_report_20261116.pdf) | [shandong/](data/provincial/shandong/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shandong-20261123)（150 MB） |
 | 湖南省 | 2026-11-16 | 370 | 70 / 300 | [PDF](docs/reports/hunan_report_20261116.pdf) | [hunan/](data/provincial/hunan/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-hunan-20261123)（419 MB） |
 
@@ -73,7 +73,7 @@
 
 ## 省级进度（2026-11-23）
 
-> 七个省级单元的独立 A/B 政策合计 2,083 份（A 级 477、B 级 1,606）。数字均为智能体初判，**人工核验 0 条**，没有一个单元验收。各省数量差别主要来自检索覆盖，不能当作各省政策量的比较。
+> 七个省级单元的独立 A/B 政策合计 2,289 份（A 级 485、B 级 1,804）。数字均为智能体初判，**人工核验 0 条**，没有一个单元验收。各省数量差别主要来自检索覆盖，不能当作各省政策量的比较。
 
 | 省份 | 独立政策 | A 级 | 原件核齐 | 主要缺口 |
 |---|---:|---:|---|---|
@@ -81,7 +81,7 @@
 | 上海 | 278 | 66 | 277 份 | 1,154 份门户原件已下载未读、7,708 个部门 URL 未取文、1,812 条题录未筛 |
 | 江苏 | 199 | 63 | — | 门户、公报 403；浙江影子清单 459 条中 435 条被拦截 |
 | 安徽 | 320 | 57 | 320 份（缺件文件放在待定） | 门户、公报 403；5,356 条题录中 4,603 条未读全文；9 份待定 |
-| 福建 | 265 | 101 | 160 份（60%） | 1,914 份命中材料未审读 |
+| 福建 | 471 | 109 | 374 份（79%） | 命中材料已逐份审读；98 份原件未齐，51 待定、22 组 B/C 边界待裁决，省委与省政府部门网站未单独检索 |
 | 山东 | 254 | 60 | — | 门户 403；原件与附件缺口 |
 | 湖南 | 370 | 70 | 29 份（8%） | B 级未按浙江口径复核；整期公报待转换 |
 
