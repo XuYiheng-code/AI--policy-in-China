@@ -1,6 +1,6 @@
 # 数据说明
 
-目前有中央层（L1，快照 2026-11-15 02:31）和七个省级单元（L2：浙江、江苏、山东为 11-16 第二轮，湖南 11-16，上海、安徽 11-23，福建 11-23 第二轮）的数据。各省现状说明见 `docs/reports/`。**全部为智能体与脚本初判，尚未人工核验**，采集也没有完成，详见 [中央层运行报告](../docs/reports/central_report_20261115.pdf) 、[浙江省现状说明](../docs/reports/zhejiang_report_20261116.pdf) 和 [江苏省现状说明](../docs/reports/jiangsu_report_20261116.pdf)。
+目前有中央层（L1，快照 2026-11-15 02:31）和八个省级单元（L2：浙江、江苏、山东为 11-16 第二轮，湖南 11-16，上海、安徽 11-23，福建 11-23 第二轮，江西 11-24 第二轮）的数据。各省现状说明见 `docs/reports/`。**全部为智能体与脚本初判，尚未人工核验**，采集也没有完成，详见 [中央层运行报告](../docs/reports/central_report_20261115.pdf) 、[浙江省现状说明](../docs/reports/zhejiang_report_20261116.pdf) 和 [江苏省现状说明](../docs/reports/jiangsu_report_20261116.pdf)。
 
 ## data/central/
 
@@ -57,13 +57,14 @@
 
 ## 其他省级单元（2026-11-23 导出）
 
-上海、安徽、福建、山东、湖南用同一套文件，由各省桌面阅读版和采集底稿导出：
+上海、安徽、福建、江西、山东、湖南用同一套文件，由各省桌面阅读版和采集底稿导出：
 
 | 省份 | 文件夹 | 独立政策 | 来源记录 | 检索日志 | 正文 |
 |---|---|---:|---:|---:|---:|
 | 上海 | `provincial/shanghai/` | 278 | 281 | 2608 | 281 |
 | 安徽 | `provincial/anhui/` | 320 | 342 | 1462 | 342 |
 | 福建 | `provincial/fujian/` | 471 | 678 | 4459 | 665 |
+| 江西 | `provincial/jiangxi/` | 312 | 479 | 1806 | 479 |
 | 山东 | `provincial/shandong/` | 254 | 269 | — | 299 |
 | 湖南 | `provincial/hunan/` | 370 | 370 | 5926 | 370 |
 
@@ -97,6 +98,7 @@
 - 上海市原件：发布在 [Release `data-shanghai-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shanghai-20261123)；登记记录原件在 `shanghai/originals/{doc_id}/`，线索材料在 `shanghai/clues/`，待核补件在 `shanghai/pending_supplements/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 安徽省原件：发布在 [Release `data-anhui-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-anhui-20261123)；登记记录原件在 `anhui/originals/{doc_id}/`，线索材料在 `anhui/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 福建省原件（第二轮）：发布在 [Release `data-fujian-20261123-r2`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-fujian-20261123-r2)，第一轮的 `data-fujian-20261123` 保留；登记记录原件在 `fujian/originals/{doc_id}/`，线索材料在 `fujian/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
+- 江西省原件（第二轮）：发布在 [Release `data-jiangxi-20261124`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangxi-20261124)；登记记录原件在 `jiangxi/originals/{doc_id}/`，候选与线索材料（含第二轮 146 个补文包 `R2-SOURCE-*`）在 `jiangxi/clues/`；仓库 `texts/` 只放 479 条登记记录的正文，候选正文在原件包里；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 山东省原件：发布在 [Release `data-shandong-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shandong-20261123)；登记记录原件在 `shandong/originals/{doc_id}/`，线索材料在 `shandong/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 湖南省原件：发布在 [Release `data-hunan-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-hunan-20261123)；登记记录原件在 `hunan/originals/{doc_id}/`，线索材料在 `hunan/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 检索候选题录：其中大部分来自北大法宝检索结果，不公开转载。
