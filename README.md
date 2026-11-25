@@ -15,7 +15,7 @@
 - 📊 **[中央层运行报告 PDF（2026-11-15，34 页，含 652 条政策清单）](docs/reports/central_report_20261115.pdf)**
 - 🗂 **[中央层数据](data/)**：政策清单、来源记录、检索日志、正文
 - 📦 **[中央层政策原件（Release 附件，约 790 MB）](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)**：818 条记录的官网原件与附件
-- 🗺 **省级（9 个单元，独立 A/B 政策合计 2,767 份）**：每省有现状说明 PDF、数据文件夹和原件 Release
+- 🗺 **省级（10 个单元，独立 A/B 政策合计 2,929 份）**：每省有现状说明 PDF、数据文件夹和原件 Release
 
 | 省份 | 底稿 | 独立政策 | A / B | 现状说明 | 数据 | 原件 |
 |---|---|---:|---|---|---|---|
@@ -27,6 +27,7 @@
 | 江西省 | 2026-11-24 第二轮 | 312 | 53 / 259 | [PDF](docs/reports/jiangxi_report_20261124.pdf) | [jiangxi/](data/provincial/jiangxi/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangxi-20261124)（1.4 GB） |
 | 山东省 | 2026-11-16 第二轮 | 254 | 60 / 194 | [PDF](docs/reports/shandong_report_20261116.pdf) | [shandong/](data/provincial/shandong/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shandong-20261123)（150 MB） |
 | 湖南省 | 2026-11-16 | 370 | 70 / 300 | [PDF](docs/reports/hunan_report_20261116.pdf) | [hunan/](data/provincial/hunan/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-hunan-20261123)（419 MB） |
+| 广东省 | 2026-11-25 | 162 | 46 / 116 | [PDF](docs/reports/guangdong_report_20261125.pdf) | [guangdong/](data/provincial/guangdong/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-guangdong-20261125)（270 MB） |
 | 陕西省 | 2026-11-24 | 166 | 39 / 127 | [PDF](docs/reports/shaanxi_report_20261125.pdf) | [shaanxi/](data/provincial/shaanxi/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shaanxi-20261125)（103 MB） |
 
 <br clear="right">
@@ -38,7 +39,7 @@
 | P0 准备 | 执行环境、名录、建库脚本 | 🔄 基本就绪，验收门 G0 未过 |
 | P1 试点 | 11 个单元全流程，校准口径与提示词 | ⬜ 未做（先行开展了中央采集） |
 | P2 中央 | 66 个机关单元 | 🔄 采集中，见下方摘要 |
-| P3 省级 | 32 个单元 | 🔄 浙江、上海、江苏、安徽、福建、江西、山东、湖南、陕西 9 个单元已整理（均未验收），其余未开始 |
+| P3 省级 | 32 个单元 | 🔄 浙江、上海、江苏、安徽、福建、江西、山东、湖南、广东、陕西 10 个单元已整理（均未验收），其余未开始 |
 | P4 第三层 | 451 个单元，按省分批 | ⬜ |
 | P5 全库质检 | 去重、关系、召回估计、冻结 v1.0 | ⬜ |
 
@@ -75,7 +76,7 @@
 
 ## 省级进度（2026-11-23）
 
-> 九个省级单元的独立 A/B 政策合计 2,767 份（A 级 577、B 级 2,190）。数字均为智能体初判，**人工核验 0 条**，没有一个单元验收。各省数量差别主要来自检索覆盖，不能当作各省政策量的比较。
+> 十个省级单元的独立 A/B 政策合计 2,929 份（A 级 623、B 级 2,306）。数字均为智能体初判，**人工核验 0 条**，没有一个单元验收。各省数量差别主要来自检索覆盖，不能当作各省政策量的比较。
 
 | 省份 | 独立政策 | A 级 | 原件核齐 | 主要缺口 |
 |---|---:|---:|---|---|
@@ -87,6 +88,7 @@
 | 江西 | 312 | 53 | 1 份 | 第二轮发现 58 份新文件待登记；2017 年 AI 若干措施等 5 份关键原件缺；2025 年前无 A 级专项；305 条候选待定 |
 | 山东 | 254 | 60 | — | 门户 403；原件与附件缺口 |
 | 湖南 | 370 | 70 | 29 份（8%） | B 级未按浙江口径复核；整期公报待转换 |
+| 广东 | 162 | 46 | 146 份（脚本判断，未逐份对原件） | 执行与把关为同一模型，没有独立盲审；28 项边界、19 条待定等裁决；207 份法宝题录没对上官网件，法宝只回溯到 2023-02-22；横琴合作区层级未定 |
 | 陕西 | 166 | 39 | 166 份（执行方口径：公开版本已保存） | 7 份边界政策、9 条待定等裁决；七条路由未关闭；132 份法宝题录没对上官网件 |
 
 各省数据文件夹的文件：`policies.csv`（独立政策，一行一份）、`source_records.csv`（来源记录）、`route_status.csv`（R1–R7 检索状态）、`search_log.csv`（检索日志，山东无）、`agency_coverage.csv`（机关覆盖）、`qc_*.csv`（重复、日期、相似文件核查）、`texts/`（正文）。北大法宝题录清单不公开。
