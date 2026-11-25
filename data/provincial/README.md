@@ -1,6 +1,6 @@
 # 省级数据（L2）
 
-八个省级单元，一省一个文件夹。合计独立 A/B 政策 2,601 份（A 级 538、B 级 2,063）。全部为智能体初判，**人工核验 0 条**，没有一个单元验收。各省数量差别主要来自检索覆盖，不能当作各省政策量的比较。
+九个省级单元，一省一个文件夹。合计独立 A/B 政策 2,767 份（A 级 577、B 级 2,190）。全部为智能体初判，**人工核验 0 条**，没有一个单元验收。各省数量差别主要来自检索覆盖，不能当作各省政策量的比较。
 
 | 省份 | 文件夹 | 快照 | 独立政策 | A / B | 来源记录正文 | 现状说明 | 原件 |
 |---|---|---|---:|---|---:|---|---|
@@ -12,6 +12,7 @@
 | 江西省 | [jiangxi/](jiangxi/) | 2026-11-24 第二轮 | 312 | 53 / 259 | 479 | [PDF](../../docs/reports/jiangxi_report_20261124.pdf) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangxi-20261124) |
 | 山东省 | [shandong/](shandong/) | 2026-11-16 第二轮 | 254 | 60 / 194 | 299 | [PDF](../../docs/reports/shandong_report_20261116.pdf) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shandong-20261123) |
 | 湖南省 | [hunan/](hunan/) | 2026-11-16 | 370 | 70 / 300 | 370 | [PDF](../../docs/reports/hunan_report_20261116.pdf) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-hunan-20261123) |
+| 陕西省 | [shaanxi/](shaanxi/) | 2026-11-24 | 166 | 39 / 127 | 223 | [PDF](../../docs/reports/shaanxi_report_20261125.pdf) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shaanxi-20261125) |
 
 ## 每个文件夹里有什么
 
