@@ -67,7 +67,7 @@
 | 江西 | `provincial/jiangxi/` | 312 | 479 | 1806 | 479 |
 | 山东 | `provincial/shandong/` | 254 | 269 | — | 299 |
 | 湖南 | `provincial/hunan/` | 370 | 370 | 5926 | 370 |
-| 广东 | `provincial/guangdong/` | 323 | 477（政策清单对应 447） | 2436 | 447 |
+| 广东 | `provincial/guangdong/` | 329 | 483（政策清单对应 453） | 2464 | 453 |
 | 陕西 | `provincial/shaanxi/` | 166 | 1366（政策来源 223） | 3279 | 223 |
 
 | 文件 | 内容 |
@@ -103,7 +103,7 @@
 - 江西省原件（第二轮）：发布在 [Release `data-jiangxi-20261124`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangxi-20261124)；登记记录原件在 `jiangxi/originals/{doc_id}/`，候选与线索材料（含第二轮 146 个补文包 `R2-SOURCE-*`）在 `jiangxi/clues/`；仓库 `texts/` 只放 479 条登记记录的正文，候选正文在原件包里；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 山东省原件：发布在 [Release `data-shandong-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shandong-20261123)；登记记录原件在 `shandong/originals/{doc_id}/`，线索材料在 `shandong/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 湖南省原件：发布在 [Release `data-hunan-20261123`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-hunan-20261123)；登记记录原件在 `hunan/originals/{doc_id}/`，线索材料在 `hunan/clues/`；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
-- 广东省原件：发布在 [Release `data-guangdong-20261126`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-guangdong-20261126)；`guangdong/originals/{doc_id}/` 为政策清单对应的 447 条来源；待定、辅库来源只在 `source_records.csv` 保留记录；一份 304 MB 的申报客户端安装包（P440000-2025-0043 附件）不是政策文本，未放入；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
+- 广东省原件：发布在 [Release `data-guangdong-20261126`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-guangdong-20261126)；`guangdong/originals/{doc_id}/` 为政策清单对应的 453 条来源；待定、辅库来源只在 `source_records.csv` 保留记录；一份 304 MB 的申报客户端安装包（P440000-2025-0043 附件）不是政策文本，未放入；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 陕西省原件：发布在 [Release `data-shaanxi-20261125`](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shaanxi-20261125)；`shaanxi/originals/{doc_id}/` 只含 223 条政策来源。登记表另有 1,101 条线索（多为媒体新闻），只在 `source_records.csv` 保留题录，正文和网页不公开；本机路径已删除，包内 `MANIFEST.csv` 列出 SHA-256。
 - 检索候选题录：其中大部分来自北大法宝检索结果，不公开转载。
 - 问题单和工作日志：内部过程记录，只公开汇总数字。
