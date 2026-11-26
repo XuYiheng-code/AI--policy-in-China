@@ -1,0 +1,8 @@
+﻿route,logged_searches,status,note
+R1,106,未关闭,站点异常：下载失败（TimeoutError）
+R2,365,未关闭,站点异常：下载失败（TimeoutError）；下载失败（URLError）
+R3,626,未关闭,站点异常：下载失败（HTTP 404）
+R4,136,未关闭,
+R5,4,未关闭,
+R6,87,未关闭,
+R7,1112,未关闭,站点异常：下载失败（TimeoutError）；下载失败（URLError）
