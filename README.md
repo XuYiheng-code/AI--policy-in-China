@@ -15,11 +15,12 @@
 - 📊 **[中央层运行报告 PDF（2026-11-15，34 页，含 652 条政策清单）](docs/reports/central_report_20261115.pdf)**
 - 🗂 **[中央层数据](data/)**：政策清单、来源记录、检索日志、正文
 - 📦 **[中央层政策原件（Release 附件，约 790 MB）](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-central-20261115)**：818 条记录的官网原件与附件
-- 🗺 **省级（10 个单元，独立 A/B 政策合计 3,096 份）**：每省有现状说明 PDF、数据文件夹和原件 Release
+- 🗺 **省级（11 个单元，独立 A/B 政策合计 3,523 份）**：每省有现状说明 PDF、数据文件夹和原件 Release
 
 | 省份 | 底稿 | 独立政策 | A / B | 现状说明 | 数据 | 原件 |
 |---|---|---:|---|---|---|---|
 | 浙江省 | 2026-11-16 第二轮 | 397 | 60 / 337 | [PDF](docs/reports/zhejiang_report_20261116.pdf) | [zhejiang/](data/provincial/zhejiang/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-zhejiang-20261116) |
+| 北京市 | 2026-11-27 | 427 | 110 / 317 | [PDF](docs/reports/beijing_report_20261127.pdf) | [beijing/](data/provincial/beijing/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-beijing-20261127)（490 MB） |
 | 上海市 | 2026-11-23 | 278 | 66 / 212 | [PDF](docs/reports/shanghai_report_20261123.pdf) | [shanghai/](data/provincial/shanghai/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-shanghai-20261123)（432 MB） |
 | 江苏省 | 2026-11-16 第二轮 | 199 | 63 / 136 | [PDF](docs/reports/jiangsu_report_20261116.pdf) | [jiangsu/](data/provincial/jiangsu/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-jiangsu-20261116)（197 MB） |
 | 安徽省 | 2026-11-23 | 320 | 57 / 263 | [PDF](docs/reports/anhui_report_20261123.pdf) | [anhui/](data/provincial/anhui/) | [Release](https://github.com/XuYiheng-code/AI--policy-in-China/releases/tag/data-anhui-20261123)（422 MB） |
@@ -39,7 +40,7 @@
 | P0 准备 | 执行环境、名录、建库脚本 | 🔄 基本就绪，验收门 G0 未过 |
 | P1 试点 | 11 个单元全流程，校准口径与提示词 | ⬜ 未做（先行开展了中央采集） |
 | P2 中央 | 66 个机关单元 | 🔄 采集中，见下方摘要 |
-| P3 省级 | 32 个单元 | 🔄 浙江、上海、江苏、安徽、福建、江西、山东、湖南、广东、陕西 10 个单元已整理（均未验收），其余未开始 |
+| P3 省级 | 32 个单元 | 🔄 浙江、北京、上海、江苏、安徽、福建、江西、山东、湖南、广东、陕西 11 个单元已整理（均未验收），其余未开始 |
 | P4 第三层 | 451 个单元，按省分批 | ⬜ |
 | P5 全库质检 | 去重、关系、召回估计、冻结 v1.0 | ⬜ |
 
@@ -81,6 +82,7 @@
 | 省份 | 独立政策 | A 级 | 原件核齐 | 主要缺口 |
 |---|---:|---:|---|---|
 | 浙江 | 397 | 60 | 96 份（24%） | 58 份 B/C 边界待人工裁决；356 个 URL 需人工下载 |
+| 北京 | 427 | 110 | 357 份（脚本判断，未逐份对原件） | 执行与把关为同一模型，没有独立盲审；18 项边界、129 条待定（经开区 128 条，层级口径未定）等裁决；359 条法宝题录没对上官网件；公报逐期目录 403、16 个部门站停站 |
 | 上海 | 278 | 66 | 277 份 | 1,154 份门户原件已下载未读、7,708 个部门 URL 未取文、1,812 条题录未筛 |
 | 江苏 | 199 | 63 | — | 门户、公报 403；浙江影子清单 459 条中 435 条被拦截 |
 | 安徽 | 320 | 57 | 320 份（缺件文件放在待定） | 门户、公报 403；5,356 条题录中 4,603 条未读全文；9 份待定 |
